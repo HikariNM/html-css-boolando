@@ -84,16 +84,18 @@ footer{
 .alt-img{
     position: absolute;
     top: 0;
+    opacity: 0;
     z-index: 99;
+    transition: all .7s;
 }
 
 .top-img{
     position: relative;
-    z-index: 999;
+    
 }
 
-.top-img:hover{
-    z-index: 0;
+.alt-img:hover{
+    opacity: 1;
 }
 
 .row {
