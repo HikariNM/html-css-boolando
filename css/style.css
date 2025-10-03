@@ -80,6 +80,7 @@ footer{
 .card  img {
     width: 100%;
 }
+
 .row {
     margin: 50px 0;
     /* background-color: pink; */
@@ -121,6 +122,11 @@ footer{
     background-color: white;
     width: 35px;
     height: 35px;
+}
+
+.fav-icon:hover{
+    color: red;
+    cursor: pointer;
 }
 
 .starting-price{
