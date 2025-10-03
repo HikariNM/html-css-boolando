@@ -25,6 +25,8 @@ nav {
 
 footer{
     background-color: #1A1A1A;
+    border-bottom: 1px solid white;
+
 }
 
 .boxed {
@@ -89,6 +91,28 @@ footer{
     position: absolute;
     justify-content: center;
     align-items: center;
+    padding: 5px 10px;
+}
+
+.disc-tag{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: white;
+    background: red;
+    bottom: 100px;
+}
+
+.tag{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: white;
+    background: green;
+    bottom: 100px;
+}
+
+.disc-tag + .tag{
+    bottom: 100px;
+    left: 55px;
 }
 
 .fav-icon{
