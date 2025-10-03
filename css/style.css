@@ -81,6 +81,21 @@ footer{
     width: 100%;
 }
 
+.alt-img{
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.top-img{
+    position: relative;
+    z-index: 999;
+}
+
+.top-img:hover{
+    z-index: 0;
+}
+
 .row {
     margin: 50px 0;
     /* background-color: pink; */
@@ -93,6 +108,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 5px 10px;
+    z-index: 999;
 }
 
 .disc-tag{
@@ -136,6 +152,7 @@ footer{
 .price{
     color: red;
 }
+
 
 
 /* FOOTER */
