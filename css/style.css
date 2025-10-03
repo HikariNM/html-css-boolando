@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .boxed{
     max-width: 1200px;
@@ -12,4 +15,49 @@
 
 .flex{
     display: flex;
+}
+
+/* HEADER */
+
+header{
+    background-color: #FF6900;
+}
+
+nav{
+    color: white;
+    min-height: 60px;
+    align-items: center;    
+}
+
+.top-list{
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.top-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar-list{
+    min-width: 15%;
+}
+
+.nav-logo{
+    min-width: 65%;
+    justify-content: center;
+}
+
+#logo{
+    width: 120px;
+}
+
+.nav-icon{
+    min-width: 20%;
+    justify-content: flex-end;
+
+}
+.nav-icon .fa{
+    color: white;
+    padding: 5px;
 }
